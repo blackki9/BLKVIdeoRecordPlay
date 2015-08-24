@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD5A438B1B8B0AC7000CDB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A438A1B8B0AC7000CDB54 /* main.m */; };
+		FD5A438E1B8B0AC7000CDB54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A438D1B8B0AC7000CDB54 /* AppDelegate.m */; };
+		FD5A43941B8B0AC7000CDB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5A43921B8B0AC7000CDB54 /* Main.storyboard */; };
+		FD5A43961B8B0AC7000CDB54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5A43951B8B0AC7000CDB54 /* Images.xcassets */; };
+		FD5A43991B8B0AC7000CDB54 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD5A43971B8B0AC7000CDB54 /* LaunchScreen.xib */; };
+		FD5A43A51B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A43A41B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.m */; };
+		FD5A43AF1B8B0AD9000CDB54 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A43AE1B8B0AD9000CDB54 /* AssetsLibrary.framework */; };
+		FD5A43B11B8B0ADF000CDB54 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A43B01B8B0ADF000CDB54 /* AVFoundation.framework */; };
+		FD5A43B31B8B0AE7000CDB54 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A43B21B8B0AE7000CDB54 /* CoreMedia.framework */; };
+		FD5A43B51B8B0AF2000CDB54 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A43B41B8B0AF2000CDB54 /* MediaPlayer.framework */; };
+		FD5A43B71B8B0AFE000CDB54 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A43B61B8B0AFE000CDB54 /* MobileCoreServices.framework */; };
+		FD5A43B91B8B0B0A000CDB54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5A43B81B8B0B0A000CDB54 /* QuartzCore.framework */; };
+		FD5A43BD1B8B0C58000CDB54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A43BC1B8B0C58000CDB54 /* ViewController.m */; };
+		FD5A43C01B8B0C86000CDB54 /* BLKPlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A43BF1B8B0C86000CDB54 /* BLKPlayVideoViewController.m */; };
+		FD5A43C31B8B0C98000CDB54 /* BLKRecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A43C21B8B0C98000CDB54 /* BLKRecordVideoViewController.m */; };
+		FD5A43C61B8B0CAA000CDB54 /* BLKMergeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5A43C51B8B0CAA000CDB54 /* BLKMergeVideoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD5A439F1B8B0AC7000CDB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD5A437D1B8B0AC6000CDB54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5A43841B8B0AC6000CDB54;
+			remoteInfo = BLKVIdeoRecordPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD5A43851B8B0AC6000CDB54 /* BLKVIdeoRecordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLKVIdeoRecordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5A43891B8B0AC7000CDB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5A438A1B8B0AC7000CDB54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD5A438C1B8B0AC7000CDB54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD5A438D1B8B0AC7000CDB54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD5A43931B8B0AC7000CDB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD5A43951B8B0AC7000CDB54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD5A43981B8B0AC7000CDB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD5A439E1B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLKVIdeoRecordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5A43A31B8B0AC7000CDB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5A43A41B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLKVIdeoRecordPlayTests.m; sourceTree = "<group>"; };
+		FD5A43AE1B8B0AD9000CDB54 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FD5A43B01B8B0ADF000CDB54 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FD5A43B21B8B0AE7000CDB54 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FD5A43B41B8B0AF2000CDB54 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FD5A43B61B8B0AFE000CDB54 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FD5A43B81B8B0B0A000CDB54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FD5A43BB1B8B0C58000CDB54 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD5A43BC1B8B0C58000CDB54 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD5A43BE1B8B0C86000CDB54 /* BLKPlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKPlayVideoViewController.h; sourceTree = "<group>"; };
+		FD5A43BF1B8B0C86000CDB54 /* BLKPlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKPlayVideoViewController.m; sourceTree = "<group>"; };
+		FD5A43C11B8B0C98000CDB54 /* BLKRecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKRecordVideoViewController.h; sourceTree = "<group>"; };
+		FD5A43C21B8B0C98000CDB54 /* BLKRecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKRecordVideoViewController.m; sourceTree = "<group>"; };
+		FD5A43C41B8B0CAA000CDB54 /* BLKMergeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKMergeVideoViewController.h; sourceTree = "<group>"; };
+		FD5A43C51B8B0CAA000CDB54 /* BLKMergeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKMergeVideoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD5A43821B8B0AC6000CDB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A43B91B8B0B0A000CDB54 /* QuartzCore.framework in Frameworks */,
+				FD5A43B71B8B0AFE000CDB54 /* MobileCoreServices.framework in Frameworks */,
+				FD5A43B51B8B0AF2000CDB54 /* MediaPlayer.framework in Frameworks */,
+				FD5A43B31B8B0AE7000CDB54 /* CoreMedia.framework in Frameworks */,
+				FD5A43B11B8B0ADF000CDB54 /* AVFoundation.framework in Frameworks */,
+				FD5A43AF1B8B0AD9000CDB54 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A439B1B8B0AC7000CDB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD5A437C1B8B0AC6000CDB54 = {
+			isa = PBXGroup;
+			children = (
+				FD5A43B81B8B0B0A000CDB54 /* QuartzCore.framework */,
+				FD5A43B61B8B0AFE000CDB54 /* MobileCoreServices.framework */,
+				FD5A43B41B8B0AF2000CDB54 /* MediaPlayer.framework */,
+				FD5A43B21B8B0AE7000CDB54 /* CoreMedia.framework */,
+				FD5A43B01B8B0ADF000CDB54 /* AVFoundation.framework */,
+				FD5A43AE1B8B0AD9000CDB54 /* AssetsLibrary.framework */,
+				FD5A43871B8B0AC6000CDB54 /* BLKVIdeoRecordPlay */,
+				FD5A43A11B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests */,
+				FD5A43861B8B0AC6000CDB54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD5A43861B8B0AC6000CDB54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A43851B8B0AC6000CDB54 /* BLKVIdeoRecordPlay.app */,
+				FD5A439E1B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD5A43871B8B0AC6000CDB54 /* BLKVIdeoRecordPlay */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A43BA1B8B0C58000CDB54 /* Controllers */,
+				FD5A438C1B8B0AC7000CDB54 /* AppDelegate.h */,
+				FD5A438D1B8B0AC7000CDB54 /* AppDelegate.m */,
+				FD5A43921B8B0AC7000CDB54 /* Main.storyboard */,
+				FD5A43951B8B0AC7000CDB54 /* Images.xcassets */,
+				FD5A43971B8B0AC7000CDB54 /* LaunchScreen.xib */,
+				FD5A43881B8B0AC6000CDB54 /* Supporting Files */,
+			);
+			path = BLKVIdeoRecordPlay;
+			sourceTree = "<group>";
+		};
+		FD5A43881B8B0AC6000CDB54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A43891B8B0AC7000CDB54 /* Info.plist */,
+				FD5A438A1B8B0AC7000CDB54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD5A43A11B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A43A41B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.m */,
+				FD5A43A21B8B0AC7000CDB54 /* Supporting Files */,
+			);
+			path = BLKVIdeoRecordPlayTests;
+			sourceTree = "<group>";
+		};
+		FD5A43A21B8B0AC7000CDB54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A43A31B8B0AC7000CDB54 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD5A43BA1B8B0C58000CDB54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD5A43BB1B8B0C58000CDB54 /* ViewController.h */,
+				FD5A43BC1B8B0C58000CDB54 /* ViewController.m */,
+				FD5A43BE1B8B0C86000CDB54 /* BLKPlayVideoViewController.h */,
+				FD5A43BF1B8B0C86000CDB54 /* BLKPlayVideoViewController.m */,
+				FD5A43C11B8B0C98000CDB54 /* BLKRecordVideoViewController.h */,
+				FD5A43C21B8B0C98000CDB54 /* BLKRecordVideoViewController.m */,
+				FD5A43C41B8B0CAA000CDB54 /* BLKMergeVideoViewController.h */,
+				FD5A43C51B8B0CAA000CDB54 /* BLKMergeVideoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD5A43841B8B0AC6000CDB54 /* BLKVIdeoRecordPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5A43A81B8B0AC7000CDB54 /* Build configuration list for PBXNativeTarget "BLKVIdeoRecordPlay" */;
+			buildPhases = (
+				FD5A43811B8B0AC6000CDB54 /* Sources */,
+				FD5A43821B8B0AC6000CDB54 /* Frameworks */,
+				FD5A43831B8B0AC6000CDB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLKVIdeoRecordPlay;
+			productName = BLKVIdeoRecordPlay;
+			productReference = FD5A43851B8B0AC6000CDB54 /* BLKVIdeoRecordPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD5A439D1B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5A43AB1B8B0AC7000CDB54 /* Build configuration list for PBXNativeTarget "BLKVIdeoRecordPlayTests" */;
+			buildPhases = (
+				FD5A439A1B8B0AC7000CDB54 /* Sources */,
+				FD5A439B1B8B0AC7000CDB54 /* Frameworks */,
+				FD5A439C1B8B0AC7000CDB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD5A43A01B8B0AC7000CDB54 /* PBXTargetDependency */,
+			);
+			name = BLKVIdeoRecordPlayTests;
+			productName = BLKVIdeoRecordPlayTests;
+			productReference = FD5A439E1B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD5A437D1B8B0AC6000CDB54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = black9;
+				TargetAttributes = {
+					FD5A43841B8B0AC6000CDB54 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FD5A439D1B8B0AC7000CDB54 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FD5A43841B8B0AC6000CDB54;
+					};
+				};
+			};
+			buildConfigurationList = FD5A43801B8B0AC6000CDB54 /* Build configuration list for PBXProject "BLKVIdeoRecordPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD5A437C1B8B0AC6000CDB54;
+			productRefGroup = FD5A43861B8B0AC6000CDB54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5A43841B8B0AC6000CDB54 /* BLKVIdeoRecordPlay */,
+				FD5A439D1B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD5A43831B8B0AC6000CDB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A43941B8B0AC7000CDB54 /* Main.storyboard in Resources */,
+				FD5A43991B8B0AC7000CDB54 /* LaunchScreen.xib in Resources */,
+				FD5A43961B8B0AC7000CDB54 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A439C1B8B0AC7000CDB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD5A43811B8B0AC6000CDB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A43C01B8B0C86000CDB54 /* BLKPlayVideoViewController.m in Sources */,
+				FD5A43C61B8B0CAA000CDB54 /* BLKMergeVideoViewController.m in Sources */,
+				FD5A43BD1B8B0C58000CDB54 /* ViewController.m in Sources */,
+				FD5A438E1B8B0AC7000CDB54 /* AppDelegate.m in Sources */,
+				FD5A43C31B8B0C98000CDB54 /* BLKRecordVideoViewController.m in Sources */,
+				FD5A438B1B8B0AC7000CDB54 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5A439A1B8B0AC7000CDB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5A43A51B8B0AC7000CDB54 /* BLKVIdeoRecordPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD5A43A01B8B0AC7000CDB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD5A43841B8B0AC6000CDB54 /* BLKVIdeoRecordPlay */;
+			targetProxy = FD5A439F1B8B0AC7000CDB54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD5A43921B8B0AC7000CDB54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5A43931B8B0AC7000CDB54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD5A43971B8B0AC7000CDB54 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD5A43981B8B0AC7000CDB54 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD5A43A61B8B0AC7000CDB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD5A43A71B8B0AC7000CDB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD5A43A91B8B0AC7000CDB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLKVIdeoRecordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD5A43AA1B8B0AC7000CDB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLKVIdeoRecordPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD5A43AC1B8B0AC7000CDB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLKVIdeoRecordPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLKVIdeoRecordPlay.app/BLKVIdeoRecordPlay";
+			};
+			name = Debug;
+		};
+		FD5A43AD1B8B0AC7000CDB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLKVIdeoRecordPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLKVIdeoRecordPlay.app/BLKVIdeoRecordPlay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD5A43801B8B0AC6000CDB54 /* Build configuration list for PBXProject "BLKVIdeoRecordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A43A61B8B0AC7000CDB54 /* Debug */,
+				FD5A43A71B8B0AC7000CDB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5A43A81B8B0AC7000CDB54 /* Build configuration list for PBXNativeTarget "BLKVIdeoRecordPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A43A91B8B0AC7000CDB54 /* Debug */,
+				FD5A43AA1B8B0AC7000CDB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD5A43AB1B8B0AC7000CDB54 /* Build configuration list for PBXNativeTarget "BLKVIdeoRecordPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A43AC1B8B0AC7000CDB54 /* Debug */,
+				FD5A43AD1B8B0AC7000CDB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD5A437D1B8B0AC6000CDB54 /* Project object */;
+}
